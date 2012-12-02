@@ -5,7 +5,9 @@
 //  Created by Ansel on 12-11-27.
 //  Copyright (c) 2012年 Ansel. All rights reserved.
 //
-
+/*
+    Added by hubing 20121202
+*/
 #import "MainViewController.h"
 #include <sys/sysctl.h>
 
