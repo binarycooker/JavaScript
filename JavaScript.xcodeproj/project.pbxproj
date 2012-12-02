@@ -21,6 +21,8 @@
 		5B314E481664ECD100DDD89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B314E291664ECD100DDD89C /* Foundation.framework */; };
 		5B314E501664ECD100DDD89C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B314E4E1664ECD100DDD89C /* InfoPlist.strings */; };
 		5B314E531664ECD100DDD89C /* JavaScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B314E521664ECD100DDD89C /* JavaScriptTests.m */; };
+		5B314E5F1664ED0300DDD89C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B314E5D1664ED0300DDD89C /* MainViewController.m */; };
+		5B314E601664ED0300DDD89C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B314E5E1664ED0300DDD89C /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		5B314E4F1664ECD100DDD89C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B314E511664ECD100DDD89C /* JavaScriptTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTests.h; sourceTree = "<group>"; };
 		5B314E521664ECD100DDD89C /* JavaScriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTests.m; sourceTree = "<group>"; };
+		5B314E5C1664ED0300DDD89C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5B314E5D1664ED0300DDD89C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5B314E5E1664ED0300DDD89C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				5B314E361664ECD100DDD89C /* AppDelegate.h */,
 				5B314E371664ECD100DDD89C /* AppDelegate.m */,
 				5B314E2E1664ECD100DDD89C /* Supporting Files */,
+				5B314E5C1664ED0300DDD89C /* MainViewController.h */,
+				5B314E5D1664ED0300DDD89C /* MainViewController.m */,
+				5B314E5E1664ED0300DDD89C /* MainViewController.xib */,
 			);
 			path = JavaScript;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				5B314E3A1664ECD100DDD89C /* Default.png in Resources */,
 				5B314E3C1664ECD100DDD89C /* Default@2x.png in Resources */,
 				5B314E3E1664ECD100DDD89C /* Default-568h@2x.png in Resources */,
+				5B314E601664ED0300DDD89C /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				5B314E341664ECD100DDD89C /* main.m in Sources */,
 				5B314E381664ECD100DDD89C /* AppDelegate.m in Sources */,
+				5B314E5F1664ED0300DDD89C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +367,7 @@
 		5B314E571664ECD100DDD89C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JavaScript/JavaScript-Prefix.pch";
 				INFOPLIST_FILE = "JavaScript/JavaScript-Info.plist";
@@ -368,6 +379,7 @@
 		5B314E581664ECD100DDD89C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JavaScript/JavaScript-Prefix.pch";
 				INFOPLIST_FILE = "JavaScript/JavaScript-Info.plist";
@@ -429,6 +441,7 @@
 				5B314E581664ECD100DDD89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B314E591664ECD100DDD89C /* Build configuration list for PBXNativeTarget "JavaScriptTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +450,7 @@
 				5B314E5B1664ECD100DDD89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
